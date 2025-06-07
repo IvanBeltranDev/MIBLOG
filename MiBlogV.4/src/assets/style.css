@@ -1,0 +1,447 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    background-color: #F8F8FF;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    background-color: #e0f0e0;
+    box-shadow: 1px 1px 10px #b0b0b0;
+    margin-bottom: 1%;
+
+}
+.titleHeader{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 2%;
+}
+
+
+.pesonalPictureContainer{
+    width: 20%;
+}
+
+.personalPicture{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.navBarHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+
+.navBarList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    gap: 5%;
+}
+
+.navBarItem{
+    display: inline-block;
+}
+
+.navBarItem a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    
+}
+
+.navBarItem a:hover{
+    color: #4e4c4c;
+}
+
+.welcomeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-color: #f0f0f0;
+    box-shadow: 1px 1px 10px #b0b0b0;
+    margin-bottom: 5%;
+    gap: 5%;
+}
+
+.personalDescriptionContainer{
+    width: 50%;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: 600px;
+    margin-bottom: 1%;
+}
+
+.Text{
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.descriptionPictureContainer{
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descriptionPicture{
+    width: 90%;
+}
+
+footer{
+    color: #f0f0f0;
+    width: 100%;
+    background-color: #434242 ;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 3%;
+}
+
+footer .socialLinks a{
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer .socialLinks a:hover{
+    color: #1E90FF ;
+}
+
+
+.aboutMeContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 2%;
+    background-color: #f0f0f0;
+    box-shadow: 1px 1px 10px #b0b0b0;
+    margin-bottom: 3%;
+    gap: 5%;
+}
+
+.aboutMeDescriptionContainer {
+    width: 70%;
+    margin: 1% 1% 1% 5%;
+}
+
+
+/* Sección de habilidades */
+.skillsContainer {
+    width: 90%;
+    margin: 0 auto 3% auto;
+    padding: 2%;
+    background-color: #e0f0e0;
+    box-shadow: 1px 1px 10px #b0b0b0;
+    border-radius: 8px;
+}
+
+/* Títulos de sección */
+.sectionTitle {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 2% 0;
+    color: #222;
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 1%;
+}
+
+.skillBox {
+    background-color: #f8f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skillBox:hover {
+    transform: scale(102%);
+}
+
+.skillTitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.skillText {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+}
+
+/* Sección de intereses */
+.interestsContainer {
+    width: 90%;
+    margin: 0 auto 3% auto;
+    padding: 2%;
+    background-color: #f0f0f0;
+    box-shadow: 1px 1px 10px #b0b0b0;
+    border-radius: 8px;
+}
+
+.interestsContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3%;
+}
+
+.interestText {
+    width: 60%;
+}
+
+.interestImagesContainer {
+    width: 35%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.interestImageBox {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.interestImage {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.interestImage:hover {
+    transform: scale(1.05);
+}
+
+/* Sección de metas profesionales */
+.goalsContainer {
+    width: 90%;
+    margin: 0 auto 3% auto;
+    padding: 2%;
+    background-color: #e0f0e0;
+    box-shadow: 1px 1px 10px #b0b0b0;
+    border-radius: 8px;
+}
+
+.goalsList {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    padding: 1%;
+}
+
+.goalItem {
+    flex: 1;
+    background-color: #f8f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.goalItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.goalTitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222;
+    text-align: center;
+}
+
+.goalText {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    text-align: center;
+}
+
+   
+
+        .portfolioContainer {
+            width: 90%;
+            margin: 0 auto 3% auto;
+            padding: 2%;
+        }
+
+
+        .projectsGrid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            padding: 2%;
+        }
+
+        .projectCard {
+            background-color: #f8f8ff;
+            border-radius: 12px;
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .projectCard:hover {
+            transform: translateY(-8px);
+            box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .projectImage {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #e0f0e0, #f0f0f0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .projectContent {
+            padding: 20px;
+        }
+
+        .projectTitle {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        .projectDescription {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .projectTechnologies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+
+        .techTag {
+            background-color: #e0f0e0;
+            color: #333;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .projectLinks {
+            display: flex;
+        }
+
+        .projectLink {
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .primaryLink {
+            background-color: #434242;
+            color: #f0f0f0;
+        }
+
+        .primaryLink:hover {
+            background-color: #222;
+        }
+
+.travelContainer{
+    width: 90%;
+    margin: 0 auto 3% auto;
+    padding: 2%;
+}
+
+.travelsGrid{
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+     gap: 25px;
+     padding: 2%;
+
+}
+
+.travelCard{
+    background-color: #f8f8ff;
+    border-radius: 12px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.travelCard:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15); ;
+}
+
+.travelImageContainer{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.travelImage{
+    width: 100%;
+    height: 100%;
+}
+
+.travelContent{
+    padding: 20px;
+    text-align: center;
+}
+
+.countryName{
+    font-size: 25px;
+    font-weight: 600;
+    color: #222;
+    margin: 0 0 10px 0;
+}
+
+.travelName{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+        
+
+
+
